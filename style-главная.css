@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+ background-color: black;
+
+
+}
+
+
+.header {
+    background: no-repeat;
+    background-size: cover;;
+    position: fixed;
+    width: 100%;
+   
+}
+.header:hover { 
+    transition: background 0.3s linear;
+    background: rgba(0, 0, 0, 0.781);
+}
+
+.container {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 5px;
+    padding-left: 40px;
+    padding-top: 5px;
+    
+}
+
+.logo-nik {
+    padding-right: 5%;
+    padding-top: 20px;
+    font-size: 20px;
+    color:#ee9c05;
+}
+
+.href {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    padding: 5px;
+    font-size: 20px;
+    transition: color 0.3s linear;
+    padding-top: 10px;
+}
+
+.href:hover {
+    color: rgb(235, 129, 7);
+}
+
+.href :last-child {
+    margin: 0;
+ }
+
+.VK {
+     padding-left: 600px;
+    padding-top: 10px; 
+
+} 
+
+.button {
+    padding: 15px;
+}
+
+.main {
+    background-position: center top;
+     background-repeat: no-repeat;
+  background-size: cover;
+   
+}
+
+.logo-main {
+    color: rgba(240, 248, 255, 0.589);
+    text-align: center;
+    font-size: 155px;
+    padding-top: 550px;
+    font-family: "Russo One", sans-serif;
+   
+
+}

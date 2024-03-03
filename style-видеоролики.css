@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    background-color: black;
+    height: 200vh;
+}
+
+
+.header {
+    background: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
+
+.header:hover {
+    transition: background 0.3s linear;
+    background: rgba(0, 0, 0, 0.781);
+}
+
+
+
+.container {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    margin-right: 5px;
+    padding-left: 40px;
+    padding-top: 5px;
+
+}
+
+.logo-nik {
+    padding-right: 5%;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #f08401;
+}
+
+.href {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    padding: 5px;
+    font-size: 20px;
+    transition: color 0.3s linear;
+    padding-top: 10px;
+}
+
+.href:hover {
+    color: rgb(235, 129, 7);
+}
+
+.href :last-child {
+    margin: 0;
+}
+
+.VK {
+    padding-left:600px;
+    padding-top: 10px;
+}
+
+.main {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    padding: 15px;
+
+
+}
+
+.video1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  
+}
+
+.title1 {
+    font-size: 35px;
+    font-family: fantasy;
+    color: #f08401;
+    padding-top:10%;
+    text-align: center;
+
+}
+
+.text1 {
+    color: rgb(210, 212, 214);
+    font-size: 25px;
+    font-family: fantasy;
+    padding-left: 40px;
+
+}
+
+.full-text1 {
+    padding-top: 10%;
+    
+}
+
+.movie1 {
+    padding-left: 200px;
+}
+
+
+
+.video2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.full-text2 {
+    padding-top: 10%;
+    
+}
+
+.title2 {
+    font-size: 35px;
+    font-family: fantasy;
+    color: #f08401;
+    padding-top:10%;
+    text-align: center;
+
+}
+
+.text2 {
+    color: rgb(210, 212, 214);
+    font-size: 25px;
+    font-family: fantasy;
+    padding-left: 40px;
+
+}
+
+.movie2 {
+    padding-left: 200px;
+}
+
+.video3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.full-text3 {
+    padding-top: 10%;
+    
+}
+
+.title3 {
+    font-size: 35px;
+    font-family: fantasy;
+    color: #f08401;
+    padding-top:10%;
+    text-align: center;
+
+}
+
+.text3 {
+    color: rgb(210, 212, 214);
+    font-size: 25px;
+    font-family: fantasy;
+    padding-left: 40px;
+
+}
+
+.movie3 {
+    padding-left: 200px;
+}

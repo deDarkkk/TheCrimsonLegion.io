@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: 100%;
+    font-family: "Oswald", sans-serif;
+    background-color: #bceff0;
+}
+
+
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.header:hover { 
+    transition: background 0.3s linear;
+    background: rgba(0, 0, 0, 0.781);
+   }
+
+.container {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 5px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.logo-nik {
+    padding-right: 5%;
+    padding-top: 20px;
+    font-size: 20px;
+    color:#01d4f0;
+}
+
+.button {
+    padding: 15px;
+}
+
+.href {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    padding: 5px;
+    font-size: 20px;
+    transition: color 0.3s linear;
+    padding-top: 10px;
+}
+
+.href:hover {
+    color: rgb(1, 187, 243);
+}
+
+.href :last-child {
+    margin: 0;
+ }
+ .VK {
+    padding-left: 600px;
+    padding-top: 10px;
+ 
+}
+
+.main {
+    height: 100vh;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-family: "Rubik Mono One", monospace;
+    color: white;
+    font-size: 80px;
+    text-shadow: 3px 3px 8px rgb(4, 252, 239);
+}
+
+.table{
+  margin: auto;
+  width: 97%;
+  border:6px solid rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.829);
+ border-radius: 29px;
+ font-family:Russo One, sans-serif;
+}
+
+.head-table{
+    border: white; 
+    border:4px solid rgb(255, 255, 255);
+}
+
+.collon1{
+    width: 200px;
+    border-right: 4px solid rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+.collon2{
+    width: 200px;
+    border-right: 4px solid rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.collon3{
+    width: 700px;
+    border-right: 4px solid rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+.collon4{
+    width: 400px;
+    border-right: 4px solid rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+.collon5{
+    width: 200px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}

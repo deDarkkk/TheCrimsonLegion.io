@@ -1,0 +1,165 @@
+
+body {
+    margin: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    font-family: "Oswald", sans-serif;
+    
+}
+.container {
+    display: flex;
+}
+
+.container1 {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+}
+
+.main {
+    height: 100vh;
+  
+}
+.header {
+   background: #7c7575a1;
+    position: fixed;
+    width: 100%;
+    transition: background 0.3s linear;
+}
+
+.header:hover {
+ background:#7c7575f3 ;
+}
+
+.VK {
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.logo {
+    margin-right: 5px;
+    padding-left: 40px;
+    padding-top: 5px;
+    
+}
+
+.logo-nik {
+    padding-right: 5%;
+    padding-top: 20px;
+    font-size: 20px;
+    color:#f08401;
+}
+
+
+
+.title {
+    background: #00000096;
+    padding: 10px;
+    border-top-left-radius: 29px;
+    border-top-right-radius: 29px;
+}
+
+.title {
+    text-align: center;
+   color: #f08401;
+   font-weight: 700;
+   font-size: 30px;
+}
+
+.title2 {
+    background: #00000096;
+    padding: 10px;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+}
+
+.title2 {
+    padding-top: 30px;
+    color:white;
+}
+
+.title3 {
+    text-align: center;
+   color: #f08401;
+   font-weight: 700;
+   font-size: 30px;
+   background: #00000096;
+   border-top-left-radius: 29px;
+   border-top-right-radius: 29px;
+
+}
+
+.title4{
+    color:white;
+    background: #00000096;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+    padding: 10px
+}
+
+.href {
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    padding: 5px;
+    font-size: 20px;
+    transition: color 0.3s linear;
+}
+
+.href:hover {
+    color: aliceblue;
+}
+
+.href :last-child {
+ margin: 0;
+}
+
+.button {
+    padding: 15px;
+    margin-right: 500px;
+   
+}
+
+.text {
+    width: 600px;
+    padding-left: 170px;
+    padding-top: 230px;
+ font-size: 20px;
+ font-weight: 500;
+}
+
+.text2 {
+    font-size: 20px;
+    width: 400px;
+    padding-left: 600px;
+
+}
+
+.image {
+    padding-left: 350px;
+    padding-top: 190px;
+   
+
+}
+
+.image1 {
+margin-top: 100px;
+padding-left: 210px;
+}
+
+.contact{
+color:#f08401;
+    font-size: 30px;
+    background: #000000e8;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.contact:hover{
+    color:white;
+}
